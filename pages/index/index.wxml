@@ -1,0 +1,97 @@
+<view class='slideshow'>
+<!--设置轮换banner-->
+<view>
+<swiper indicator-dots='true' autoplay='true' interval='4000' duration='1000'>
+<!-- 是否显示面板指示点，indicator:指示器 -->
+<block wx:for="{{imgUrls}}">
+<swiper-item>
+<image src='{{item}}' class='pic'/>
+</swiper-item>
+</block>
+<!-- 在组件上使用wx:for绑定一个数组,即可使用数组中的各项的数据重复渲染该组件，数组当前的变量名默认为item，block是一个结构块，wx:for绑定了block标签,渲染一个包含多个节点的结构块。 -->
+</swiper>
+</view>
+</view>
+
+<scroll-view scroll-y="true" style='height:1000px'>
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<image src='../images/classroom_2.png' mode='scaleFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_3.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_4.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_5.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='body'>
+<!-- 弹性布局（横向） -->
+<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<view class='detail1'>
+<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+</view>
+</view>
+<view class='line'></view>
+</scroll-view>
+

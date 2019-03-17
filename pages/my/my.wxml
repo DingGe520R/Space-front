@@ -1,0 +1,53 @@
+<!--logs.wxml-->
+<view class='hr'></view>
+<!-- 水平分割线 -->
+<view class='item'>
+<view class='title'>预约记录</view>
+<view class='detail2'>
+<text>></text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='hr'></view>
+<view class='item'>
+<view class='title'>账号管理</view>
+<view class='detail2'>
+<text>></text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='item'>
+<view class='title'>查看详情</view>
+<view class='detail2'>
+<text>></text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='item'>
+<view class='title'>使用说明</view>
+<view class='detail2'>
+<text>></text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='item'>
+<view class='title'>建议反馈</view>
+<view class='detail2'>
+<text>></text>
+</view>
+</view>
+<view class='line'></view>
+<!-- -----------分界线----------- -->
+<view class='hr'></view>
+<!-- 水平分割线 -->
+<view class='item'>
+<view class='title'>关于我们</view>
+<view class='detail2'>
+<text>></text>
+</view>
+</view>
+<view class='line'></view>

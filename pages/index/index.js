@@ -1,0 +1,9 @@
+Page({
+data:{
+  imgUrls:[
+    "../images/banner_1.jpg",
+    "../images/banner_2.jpg",
+    "../images/banner_3.jpg",
+    "../images/banner_4.jpg"
+  ]}
+})
