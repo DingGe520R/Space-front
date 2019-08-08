@@ -14,82 +14,122 @@
 </view>
 
 <scroll-view scroll-y="true" style='height:1000px'>
-<view class='body'>
 <!-- 弹性布局（横向） -->
+<view class='body' bindtap='yuyuedetail1'>
 <image src='../images/classroom_1.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>小教室</text>
+<text>没有暖气</text>
 </view>
+<view class='righttext'>
+<text>没有空调</text>
+</view>
+
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail2'>
 <image src='../images/classroom_2.png' mode='scaleFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>大教室</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail3'>
 <!-- 弹性布局（横向） -->
 <image src='../images/classroom_3.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>会议室</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail4'>
 <!-- 弹性布局（横向） -->
 <image src='../images/classroom_4.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>活动中心</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail5'>
 <!-- 弹性布局（横向） -->
 <image src='../images/classroom_5.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>实验室</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail6'>
 <!-- 弹性布局（横向） -->
-<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<image src='../images/classroom_6.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>阶梯教室</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail7'>
 <!-- 弹性布局（横向） -->
-<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<image src='../images/classroom_7.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>机房</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail8'>
 <!-- 弹性布局（横向） -->
-<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<image src='../images/classroom_8.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>研讨室</text>
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='body'>
+<view class='body' bindtap='yuyuedetail9'>
 <!-- 弹性布局（横向） -->
-<image src='../images/classroom_1.png' mode='scaleToFill'></image>
+<!-- <navigator url='../food/food.wxml' hover-class="navigator-hover"></navigator> -->
+
+<image src='../images/classroom_9.png' mode='scaleToFill'></image>
 <view class='detail1'>
-<text>这是一个非常非常厉害的会议室呢，里面有许多有趣的人和可爱的动物！</text>
+<text>录播室</text>
+<!-- <button class='yuyuebutton' bindtap='toFood'>预约</button> -->
+<text>没有暖气</text>
+</view>
+<view class='righttext'>
+<text>没有空调</text>
 </view>
 </view>
 <view class='line'></view>

@@ -1,7 +1,23 @@
-<!--logs.wxml-->
+<!-- <view class='topbackgroundcolor'> -->
+<!--wxml-->
+ 
+
+
+<view class='head'>
+<view class='headIcon'>
+<open-data type="userAvatarUrl"></open-data>
+</view>
+<view class='avater'>
+<open-data type="userNickName"></open-data>
+</view>
+</view>
+
+
 <view class='hr'></view>
+
+
 <!-- 水平分割线 -->
-<view class='item'>
+<view class='item' bindtap='yuyuerecord'>
 <view class='title'>预约记录</view>
 <view class='detail2'>
 <text>></text>
@@ -10,23 +26,23 @@
 <view class='line'></view>
 <!-- -----------分界线----------- -->
 <view class='hr'></view>
-<view class='item'>
-<view class='title'>账号管理</view>
+<view class='item' bindtap='myposition'>
+<view class='title'>我的位置</view>
 <view class='detail2'>
 <text>></text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='item'>
-<view class='title'>查看详情</view>
+<view class='item' bindtap='roominformation'>
+<view class='title'>空间信息</view>
 <view class='detail2'>
 <text>></text>
 </view>
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='item'>
+<view class='item' bindtap='shiyonginstructions'>
 <view class='title'>使用说明</view>
 <view class='detail2'>
 <text>></text>
@@ -34,7 +50,7 @@
 </view>
 <view class='line'></view>
 <!-- -----------分界线----------- -->
-<view class='item'>
+<view class='item' bindtap='suggestion'>
 <view class='title'>建议反馈</view>
 <view class='detail2'>
 <text>></text>
@@ -44,7 +60,7 @@
 <!-- -----------分界线----------- -->
 <view class='hr'></view>
 <!-- 水平分割线 -->
-<view class='item'>
+<view class='item' bindtap='aboutus'>
 <view class='title'>关于我们</view>
 <view class='detail2'>
 <text>></text>

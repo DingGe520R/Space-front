@@ -1,7 +1,23 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/yuyuedetail1/yuyuedetail1",
+    "pages/yuyuedetail2/yuyuedetail2",
+    "pages/yuyuedetail3/yuyuedetail3",
+    "pages/yuyuedetail4/yuyuedetail4",
+    "pages/yuyuedetail5/yuyuedetail5",
+    "pages/yuyuedetail6/yuyuedetail6",
+    "pages/yuyuedetail7/yuyuedetail7",
+    "pages/yuyuedetail8/yuyuedetail8",
+    "pages/yuyuedetail9/yuyuedetail9",
+    "pages/yuyuerecord/yuyuerecord",
+    "pages/myposition/myposition",
+    "pages/roominformation/roominformation",
+    "pages/shiyonginstructions/shiyonginstructions",
+    "pages/suggestion/suggestion",
+    "pages/aboutus/aboutus"
+
 ],
   "window":{
     "backgroundTextStyle":"light",
